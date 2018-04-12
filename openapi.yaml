@@ -25,9 +25,9 @@ info:
     x-logo:
         url: 'logo_banner.png'
 tags:
-    -description: Constants are static values which can be made available to users for use in data elements and indicators. 
-    name: Constants
-    x-displayName: Constants
+    -   description: Constants are static values which can be made available to users for use in data elements and indicators. 
+        name: Constants
+        x-displayName: Constants
 paths:
     /constants:
         post:
