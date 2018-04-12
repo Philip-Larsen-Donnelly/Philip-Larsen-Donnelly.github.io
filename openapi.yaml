@@ -23,7 +23,7 @@ info:
     contact:
         email: dev@dhis2.org
     x-logo:
-        url: 'https://github.com/dhis2/dhis2-core/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/css/light_blue/logo_banner.png'
+        url: 'https://Philip-Larsen-Donnelly.github.io/logo_banner.png'
 tags:
     -description: Constants are static values which can be made available to users for use in data elements and indicators. 
     name: Constants
