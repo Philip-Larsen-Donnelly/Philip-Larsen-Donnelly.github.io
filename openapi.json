@@ -1,6 +1,6 @@
 {
   "openapi": "3.0.1",
-  "X_logo" : { "url" : "https://www.dhis2.org/sites/all/themes/dhis/logo.png"},
+  "x-logo" : { "url" : "https://www.dhis2.org/sites/all/themes/dhis/logo.png"},
   "servers": [
     {
       "url": "http://localhost:8080/api",
