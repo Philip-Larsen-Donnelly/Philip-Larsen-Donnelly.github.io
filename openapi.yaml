@@ -23,7 +23,7 @@ info:
     contact:
         email: dev@dhis2.org
     x-logo:
-        url: 'https://Philip-Larsen-Donnelly.github.io/logo_banner.png'
+        url: 'logo_banner.png'
 tags:
     -description: Constants are static values which can be made available to users for use in data elements and indicators. 
     name: Constants
@@ -32,6 +32,7 @@ paths:
     /constants:
         post:
             summary: add a new constant definition
+            tags: Constants
             description: ''
             parameters: []
             operationId: ''
@@ -75,6 +76,7 @@ paths:
                     description: Default response
         put:
             summary: update a constant definition
+            tags: Constants
             description: ''
             parameters: []
             operationId: ''
@@ -118,6 +120,7 @@ paths:
                     description: Default response
         get:
             summary: get constants based on an applied filter
+            tags: Constants
             description: ''
             parameters:
                 - 
@@ -135,6 +138,7 @@ paths:
     /constants/{uid}:
         get:
             summary: "get details of a constant based on it's unique ID"
+            tags: Constants
             parameters:
                 - 
                     in: path
@@ -181,6 +185,7 @@ paths:
                                     uid: bCqvfPR02Im
         delete:
             summary: "delete a  constant based on it's unique ID"
+            tags: Constants
             parameters:
                 - 
                     in: path
