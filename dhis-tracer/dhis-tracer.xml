@@ -6,9 +6,6 @@
     thumbnail="dhis-tracer-thumbnail.png"
     description="A list of recently created JIRA Issues">
 
-    <Require feature="minimessage" />
-    <Require feature="dynamic-height" />
-
   </ModulePrefs>
 
   <UserPref

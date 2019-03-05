@@ -15,7 +15,7 @@ gadgets.util.registerOnLoadHandler(fetchIssues);
 function fetchIssues() {
   // Request URL for most recently created,
   // unresolved issues on jira.atlassian.com
-  var url = "https://jira.dhis2.org/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+in+%28DHIS2%2C+TECH%29+AND+issuetype+in+%28Bug%2C+Feature%29+AND+status+%3D+Done+AND+resolution+%3D+Done+AND+fixVersion+%3D+2.32+AND+created+%3E%3D+-4w&tempMax=1000";
+  var url = "https://jira.dhis2.org/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+in+%28DHIS2%2C+TECH%29+AND+issuetype+in+%28Bug%2C+Feature%29+AND+status+%3D+Done+AND+resolution+%3D+Done+AND+fixVersion+%3D+2.32+AND+created+%3E%3D+-4w&tempMax=10";
 
     // Construct request parameters object
     var params = {};
