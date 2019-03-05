@@ -29,11 +29,11 @@
 
   <Content type="html"><![CDATA[
     <link rel="stylesheet"
-      href="dhis-tracer.css">
+      href="https://philip-larsen-donnelly.github.io/dhis-tracer/dhis-tracer.css">
 
     <div id="content_div"></div>
 
     <script type="text/javascript"
-      src="dhis-tracer.js"></script>
+      src="https://philip-larsen-donnelly.github.io/dhis-tracer/dhis-tracer.js"></script>
   ]]></Content>
 </Module>
